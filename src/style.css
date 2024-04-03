@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 600px;
+  display: block;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input[type=text] {
+  flex-grow: 1;
+}
+
+button {
+  padding: 10px;
+}
+
+section {
+  display: flex; 
+}
+
+#questionario {
+  display: flex;
+  flex-direction: column;
+}
+#questionario div {
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+#questionario div label {
+  width: 50%
+}
+#questionario div input {
+  width: 50%
+}
+#questionario div .resposta {
+  width: 50%;
+  border: 1px black;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário Dinâmico</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="container">
+      <h1>Crie seu Questionário!</h1>
+    </header>
+    <main>
+      <nav class="container">
+        <form id="adicionarPerguntaForm">
+          <input type="text" id="perguntaTextoInput" placeholder="Digite sua pergunta aqui..." required>
+          <button type="submit">Adicionar Pergunta</button>
+        </form>
+      </nav>
+      <div class="container">
+        <section class="container">
+          <h2>Questionário</h2>
+          <div id="questionario">
+            <ul id="questionarioList">
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
+
